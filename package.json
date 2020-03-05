@@ -1,7 +1,11 @@
 {
   "scripts": {
-    "commit": "git-cz",
-    "commitmsg": "validate-commit-msg"
+    "commit": "git-cz"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "validate-commit-msg"
+    }
   },
   "devDependencies": {
     "commitizen": "^4.0.3",
