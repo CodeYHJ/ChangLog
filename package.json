@@ -12,6 +12,7 @@
     "commitizen": "^4.0.3",
     "conventional-changelog-angular-emoji": "^0.2.2",
     "conventional-changelog-cli": "^2.0.31",
+    "conventional-commit-types-emoji": "^0.1.0",
     "cz-conventional-changelog": "^3.1.0",
     "cz-conventional-changelog-emoji": "0.1.0",
     "cz-customizable": "^6.2.0",
