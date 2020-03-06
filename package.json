@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "commit": "git-cz && git push",
+    "commit": "git-cz&&git push",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
   },
   "husky": {
@@ -16,15 +16,15 @@
     "cz-conventional-changelog": "^3.1.0",
     "cz-conventional-changelog-emoji": "0.1.0",
     "cz-customizable": "^6.2.0",
-    "husky": "^4.2.3",
-    "validate-commit-msg": "^2.14.0"
+    "husky": "^4.2.3"
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog-emoji"
+      "path": "./test/index.js"
     }
   },
   "dependencies": {
-    "remove": "^0.1.5"
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4"
   }
 }
