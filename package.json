@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "commit": "git-cz"
+    "commit": "git-cz && git push"
   },
   "husky": {
     "hooks": {
@@ -11,12 +11,16 @@
     "commitizen": "^4.0.3",
     "conventional-changelog-cli": "^2.0.31",
     "cz-conventional-changelog": "^3.1.0",
+    "cz-conventional-changelog-emoji": "0.1.0",
     "husky": "^4.2.3",
     "validate-commit-msg": "^2.14.0"
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+      "path": "./node_modules/cz-conventional-changelog-emoji"
     }
+  },
+  "dependencies": {
+    "remove": "^0.1.5"
   }
 }
