@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "commit": "git-cz && git push"
+    "commit": "git-cz && git push",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
   },
   "husky": {
     "hooks": {
@@ -19,7 +20,7 @@
   },
   "config": {
     "commitizen": {
-      "path": "cz-conventional-changelog-emoji"
+      "path": "./node_modules/cz-conventional-changelog-emoji"
     }
   },
   "dependencies": {
